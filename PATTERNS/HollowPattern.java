@@ -7,6 +7,7 @@ public class HollowPattern {
         char ch = sc.next().charAt(0);
         System.out.print("Enter No of terns n: ");
         int n = sc.nextInt();
+        
         PrintHollowLowerLeftRightAngleTringle(ch, n);
 
     }
@@ -23,6 +24,5 @@ public class HollowPattern {
             }
             System.out.printf("\n\n\n\n");
         }
-
     }
 }
